@@ -1,0 +1,13 @@
+
+
+First you need to set the refresh rate to 59hz
+
+For GameCube games that completely eliminates the bad framerate pacing
+
+For Wii games that creates an issue with the audio where it starts to crackle very badly, but fortunately there is a fix for that. In the game.ini edition add this option
+[Video_Hacks] and under that VISkip = True
+
+This will eliminate any audio issues when setting the refresh rate to 59hz on Wii games.
+
+DO NOT USE VI SKIP ON GAMECUBE GAMES SINCE THAT WILL MESS UP THE GAMES FRAMERATE.
+
